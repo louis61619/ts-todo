@@ -1,0 +1,26 @@
+{
+  "name": "ts-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start:client": "npm run start --workspace=client",
+    "start:server": "npm run start --workspace=server",
+    "dev:server": "npm run dev --workspace=server",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
