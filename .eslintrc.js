@@ -1,10 +1,6 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
-    browser: true,
-  },
-  extends: ['react-app', 'react-app/jest', 'plugin:prettier/recommended'],
+  plugins: ['prettier'],
+  extends: ['react-app', 'react-app/jest'],
   rules: {
     'prettier/prettier': 'warn',
   },

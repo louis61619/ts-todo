@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["packages/client/src", "packages/server"]
+  "include": ["packages/client1/src", "packages/client2/src", "packages/server"]
 }

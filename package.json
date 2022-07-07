@@ -6,11 +6,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "react-scripts": "5.0.1"
-  },
   "scripts": {
-    "start:client": "npm run start --workspace=client",
+    "start:client": "npm run start --workspace=client1",
     "start:server": "npm run start --workspace=server",
     "dev:server": "npm run dev --workspace=server",
     "prettier": "prettier --write ."
